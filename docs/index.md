@@ -172,3 +172,382 @@
     </section>
   </body>
 </html>
+/* Box Model Hack*/
+*{
+  box-sizing: border-box;
+}
+
+/*The Beginning of the header*/
+.nytimes{
+  width: 100%;
+  clear: both;
+}
+/*Beginning of the tools section*/
+.tools{
+  float: left;
+  width: 50%;
+  display: inline;
+}
+.tools span{
+  padding-left: 4px;
+  font-size: 12px;
+}
+.buttons{
+  float: left;
+  width: 50%;
+  display: inline;
+  text-align: right;
+}
+.buttons button{
+  background-color: #A3CEE0;
+  color: white;
+}
+.logo{
+  clear: both;
+  text-align: center;
+}
+.logo a{
+  font-size: 15px;
+  text-decoration: none;
+  color: grey;
+  display: inline-block;
+}
+.logo img{
+  display: inline;
+}
+.features{
+  text-align: center;
+}
+.features span{
+  font-size: 12px;
+}
+.features ul li{
+  list-style-type: none;
+  display: inline;
+}
+.features ul li a{
+  font-size: 12px;
+  padding-left: 5px;
+  text-decoration: none;
+  color: black;
+}
+.features ul li a i{
+  margin-right: 4px;
+}
+nav ul li{
+  display: inline;
+  list-style-type: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+nav ul li a{
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+nav{
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 1px solid grey;
+  margin-bottom: 5px;
+}
+/*Ending of header*/
+
+.column1{
+  float: left;
+  width:20%;
+}
+.president{
+  padding-top: 6px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.president > span{
+  font-size: 12px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+}
+.president h2{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.president figcaption{
+  color: grey;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+.president figcaption span{
+  color: red;
+  font-size: 12px;
+}
+.president ul{
+  padding-left: 15px;
+  padding-right: 20px;
+  margin: 0;
+}
+.president ul li{
+  font-size: 15px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+.rubio {
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.rubio > span{
+  color: grey;
+  font-size: 12px;
+}
+.rubio h3{
+  margin: 0;
+  padding-bottom: 10px
+}
+.rubio figcaption{
+  color: grey;
+  font-size: 12px;
+  padding-right: 26px;
+  padding-bottom: 10px;
+}
+.rubio figcaption span{
+  color: red;
+  font-size: 12px;
+}
+.rubio p{
+  font-size: 15px;
+  margin: 0;
+  padding-right: 25px;
+}
+/*Ending of column 1*/
+
+/*Beginning of column 2*/
+.column2{
+  float: left;
+  width:40%;
+}
+.trumpVideo{
+  background-image: url(https://media.npr.org/assets/img/2017/01/11/ap_17011590123441_wide-8d1c1a27dc23ada5900c43916b00b7b964930c03-s900-c85.jpg);
+  height: 285px;
+  background-size: 510px;
+  padding-top: 160px;
+  padding-left: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.trumpVideo i{
+  color: white;
+  font-size: 50px;
+}
+.trumpVideo span{
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+.trumpVideo h3{
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 60px;
+}
+.column2 figcaption{
+  font-size: 12px;
+  color: grey;
+  text-align: right;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.column2 p{
+  font-size: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.trumpNews h3{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.trumpNews p{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0;
+}
+.trumpNews ul li{
+  display: inline-block;
+  border-right: 1px solid grey;
+}
+.trumpNews ul li:last-of-type{
+  border-right: none;
+}
+.trumpNews ul li:first-of-type::before{
+  content: "• ";
+}
+.trumpNews ul li a{
+  text-decoration: none;
+  color: black;
+  padding-right: 8px;
+}
+.bob{
+  padding-left: 0;
+}
+.trumpExtra{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.trumpExtra h5{
+  margin-bottom: 2px;
+}
+.trumpExtra figcaption{
+  text-align: left;
+  font-size: 12px;
+  color: grey;
+  margin-left: 0;
+}
+.trumpExtra figcaption span{
+  color: red;
+  font-size: 12px;
+  padding-left: 4px;
+}
+.trumpExtra P{
+  margin: 0;
+}
+.trumpExtra span{
+  color: blue;
+}
+.trumpExtra ul{
+  margin-top: 0;
+  padding-left: 20px;
+}
+.trumpExtra li span{
+  color: red;
+  padding-left: 5px;
+}
+.trumpExtra img{
+  float: right;
+  height: 60px;
+  width: 60px;
+}
+/*Ending of column2 section*/
+
+/*Beginning of column3 section*/
+.column3{
+  float: left;
+  width:40%;
+  border-left: 1px solid grey;
+}
+.column3 .col h5{
+  margin: 0;
+}
+.column3 .col p{
+  margin: 0;
+  margin-bottom: 30px;
+}
+.opinion > h5{
+  text-align: center;
+}
+.opinion h5{
+  font-size: 16px;
+}
+.column3 .col{
+  width: 50%;
+  float: left;
+  height: 334px;
+}
+.obama,
+.opEd,
+.apple,
+.hate{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.obama figcaption,
+.opEd span,
+.opEd figcaption,
+.hate span{
+  font-size: 12px;
+  color: grey;
+}
+.obama img,
+.opEd img,
+.apple img,
+.hate img{
+  float: right;
+  height: 60px;
+  width: 60px;
+}
+.obama p,
+.opEd p,
+.apple p,
+.hate p{
+  font-size: 15px;
+}
+.opEd ul,
+.hate ul{
+  padding-left: 17px;
+}
+.opEd li,
+.hate li{
+  font-size: 12px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+/*Beginning of the extras section*/
+.cross{
+  border-left: 1px solid grey;
+  padding-left: 5px;
+}
+.extra section{
+  float: left;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.extra h5{
+  margin: 0;
+  padding-right: 40px;
+}
+.extra a{
+  text-decoration: none;
+  font-size: 12px;
+  color: black
+}
+.extra .crossword{
+  height: 60px;
+  width: 60px;
+  float: right;
+}
+.extra .other{
+  width: 100%;
+  border-top: 1px solid grey;
+}
+.other{
+  margin-left: 3%;
+}
+.other section{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 85%;
+  margin-top: 0;
+  margin-left: 20px;
+  padding-left: 0;
+  float: left;
+}
+.other img{
+  height: 60px;
+  width: 60px;
+  float: right;
+}
+.other p{
+  padding-right: 50px;
+  margin: 0;
+}
+.other > span{
+  float: left;
+  color: lightgrey;
+  width: 10%;
+}
+.other > p > span{
+  font-weight: bold;
+}
+/*Ending of column3 section */
